@@ -1,0 +1,15 @@
+
+    
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    justify-content:space-around
+}
+
+nav li a{
+    display: inline;
+    text-decoration:none;
+    ;  
+}
