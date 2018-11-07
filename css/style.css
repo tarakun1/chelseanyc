@@ -14,3 +14,36 @@ nav li a{
     font size:25px;
       
 }
+
+
+
+/*Following CSS is to style Landmark page*/
+
+/* 1. Resizing landmark photos*/
+
+.chelseamarket-img {
+    height: auto;
+    width: 30%;
+}
+
+.highline-img{
+    height: auto;
+    width: 30%;
+}
+
+.operahouse-img{
+    height: auto;
+    width: 30%;
+}
+
+.hotelchelsea-img{
+    height: auto;
+    width: 30%;
+}
+
+.hellskitchen-img{
+    height: auto;
+    width: 30%;
+}
+
+/*This is the end of landmark page styling*/
