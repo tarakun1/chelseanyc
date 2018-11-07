@@ -1,0 +1,104 @@
+/* ===== RESET ==== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== Style for Layout Page ==== */
+
+    /* ===== NAVIGATION BAR ==== */    
+nav {
+ background: #F3D2AE;
+} 
+
+ul {
+    list-style-type: none;
+    height: 40px;
+    line-height: 40px;
+/*    Fix centering */
+    width: 50%;
+    margin: 0 auto;
+}
+
+nav ul li {
+  float: left;   /* makes block elements behaves like inline elements */
+}
+
+nav li a {
+    text-decoration: none; /* this removes the links underline */
+    color: #02658C;
+    display: block;
+    padding: 0 20px;
+}
+
+nav li a:visited {
+    color: lightseagreen;
+    text-decoration: line-through;
+}
+
+nav li a:hover {
+    background-color: white;
+    color: #F19D04;
+}
+
+
+    /* ===== HEADER ==== */   
+header {
+ background: none;
+    height: 50px;
+    font-family: sans-serif;
+    font-size: large;
+
+}
+
+
+    /* ===== SECTION ONE ==== */   
+.sec-one {
+     background: none;
+    height: 400px;
+}
+
+
+    /* ===== SECTION TWO ==== */   
+.sec-two {
+     background: none;
+    height: 400px;
+}
+
+    /* ===== SECTION THREE ==== */   
+
+.sec-three {
+     background: none;
+    height: 400px;
+}
+    /* ===== SECTION FOUR ==== */   
+.sec-four {
+     background-color: none;
+    height: 400px;
+}
+
+
+    /* ===== FOOTER ==== */ 
+footer {
+    background-color: pale;
+    height: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

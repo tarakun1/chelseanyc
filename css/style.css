@@ -1,20 +1,51 @@
+/*CSS reset*/
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
 
-    
-  nav ul {
+
+html{font-family: 'Open Sans', sans-serif;
+}
+
+header,nav,h1{font-family: 'Raleway', sans-serif;
+}    
+
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display:flex;
-    justify-content:space-around
+    justify-content:space-around;
+
 }
+
+
+  /*background-color: #EAEAEA; This is light gray color for the nav background  */
+  
+
 
 nav li a{
     display: inline;
     text-decoration:none;
-    font size:25px;
+    font: 25px;
+    font-weight: bold
       
 }
+/*Change colors*/
+nav li a:visited {
+    color: #82D173;
+    
+}
 
+/*Change colors*/
+nav li a:hover {
+        color:#000000;
+        background-color:#FFCF56;
+        
+}
 
 
 /*Following CSS is to style Landmark page*/
@@ -46,4 +77,5 @@ nav li a{
     width: 30%;
 }
 
-/*This is the end of landmark page styling*/
+
+/* Above is the end of landmark page styling*/
