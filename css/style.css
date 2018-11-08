@@ -5,21 +5,36 @@
     box-sizing: border-box;
     font-size: 16px;
 }
-
-
-html{font-family: 'Open Sans', sans-serif;
+/*started to establish styling for the pages in the website with the Exception
+of the HomePage file: style-jk.css. 
+I have been using the Landmark page as "the test"to view the style updates
+There is an issue with the nav bar that it shows as visited ,but will not 
+revert to not visited once you close out of the website. Trying to resolve but 
+stumped... any recommendations for solves would be fantastic!FYI added a section
+tag to each HTML so can have another option for styling in the webpage.Lynne 
+*/
+html{font-family: 'Open Sans',"Book Antiqua",Palatino sans-serif;
 }
 
-header,nav,h1{font-family: 'Raleway', sans-serif;
-}    
+header,nav,h1{font-family:'Raleway',Georgia,"Times New Roman" sans-serif;
+} 
 
+
+
+header{text-align:center;
+       padding:40px 25px;
+       font-weight: bold;
+       
+}
+
+/*style in Home Page nav bar and Nav bar in other web pages should align*/
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display:flex;
     justify-content:space-around;
-
+    line-height: 40px;
 }
 
 
@@ -48,34 +63,67 @@ nav li a:hover {
 }
 
 
+section{margin-bottom: 10px;
+    border:3px #C0C0C0 solid;
+    padding:5px;
+   
+
+
+}
+
+img{height: 30%;
+    width: 30%;
+    margin-right:15px
+
+}
+
+.flex-container{display:flex;
+                justify-content:flex-end;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Following CSS is to style Landmark page*/
 
 /* 1. Resizing landmark photos*/
 
-.chelseamarket-img {
-    height: auto;
-    width: 30%;
-}
+/*.chelseamarket-img {*/
+/*    height: auto;*/
+/*    width: 30%;*/
+/*}*/
 
-.highline-img{
-    height: auto;
-    width: 30%;
-}
+/*.highline-img{*/
+/*    height: auto;*/
+/*    width: 30%;*/
+/*}*/
 
-.operahouse-img{
-    height: auto;
-    width: 30%;
-}
+/*.operahouse-img{*/
+/*    height: auto;*/
+/*    width: 30%;*/
+/*}*/
 
-.hotelchelsea-img{
-    height: auto;
-    width: 30%;
-}
+/*.hotelchelsea-img{*/
+/*    height: auto;*/
+/*    width: 30%;*/
+/*}*/
 
-.hellskitchen-img{
-    height: auto;
-    width: 30%;
-}
+/*.hellskitchen-img{*/
+/*    height: auto;*/
+/*    width: 30%;*/
+/*}*/
 
 
 /* Above is the end of landmark page styling*/

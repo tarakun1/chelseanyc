@@ -6,23 +6,37 @@
 }
 
 /* ===== Style for Layout Page ==== */
+/*Added this font styling so the home page style with the other pages-*/
+
+html{font-family: 'Open Sans',"Book Antiqua",Palatino sans-serif;
+
+}
+header,nav,h1{font-family:'Raleway',Georgia,"Times New Roman" sans-serif;
+
+
+}
 
     /* ===== NAVIGATION BAR ==== */    
 nav {
  background: #F3D2AE;
 } 
-
-ul {
+/* I updated this page so all fonts across the website would be consistent and
+somehow the underline under the nav bar appeared- cannot determine what happened
+run in W3c and could not find error-so sorry will continue to try to determine 
+the cause Lynne-*/
+ ul {
     list-style-type: none;
     height: 40px;
     line-height: 40px;
 /*    Fix centering */
     width: 50%;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li {
-  float: left;   /* makes block elements behaves like inline elements */
+  float: left;   /* makes block elements behaves like inline elements 
 }
 
 nav li a {
@@ -45,11 +59,15 @@ nav li a:hover {
 
     /* ===== HEADER ==== */   
 header {
- background: none;
-    height: 50px;
-    font-family: sans-serif;
-    font-size: large;
-
+    background: none;
+    height: 60px;
+    font-family: sans-serif; 
+    /*Suggestion: delete font-family since we have established a standard font 
+    for html and header, nav, h1 (see under Style LayOut Page) for all pages to 
+    maintain consistency within website*/
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center
 }
 
 
@@ -57,6 +75,7 @@ header {
 .sec-one {
      background: none;
     height: 400px;
+    width: 500px;
 }
 
 
@@ -82,8 +101,7 @@ header {
     /* ===== FOOTER ==== */ 
 footer {
     background-color: pale;
-    height: 150px;
-}
+    height: 150px;}
 
 
 
