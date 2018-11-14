@@ -20,27 +20,30 @@ header,nav,h1{font-family:'Raleway',Georgia,"Times New Roman" sans-serif;
 nav {
  background: #F3D2AE;
 } 
-/* I updated this page so all fonts across the website would be consistent and
-somehow the underline under the nav bar appeared- cannot determine what happened
-run in W3c and could not find error-so sorry will continue to try to determine 
-the cause Lynne-*/
+
+
+
  ul {
     list-style-type: none;
     height: 40px;
     line-height: 40px;
-/*    Fix centering */
+    /*Fix centering */
     width: 50%;
     margin: 0 auto;
     display: flex;
     justify-content: center;
 }
+ 
 
 nav ul li {
-  float: left;   /* makes block elements behaves like inline elements 
+  float: left;   /* makes block elements behaves like inline elements*/ 
 }
 
+
+
+
 nav li a {
-    text-decoration: none; /* this removes the links underline */
+    text-decoration:none; /* this removes the links underline*/ 
     color: #02658C;
     display: block;
     padding: 0 20px;
