@@ -1,29 +1,30 @@
 /*CSS reset*/
-/*Why the error message in Line 7?*/
+/*Need to add id to complete project*/
 
 * {
     margin:0;
     padding:0;
-    box-sizing:border-box;
-    font-size: 16px;
+    /*box-sizing:border-box;*/
+    /*font-size: 16px; move to html*/
 }
     
 /*started to establish styling for the pages in the website with the Exception
 of the HomePage file which is file: style-jk.css. 
 I have been using the Landmark page as "the test"to view the style updates
-There is an issue with the nav bar that it shows as visited ,but will not 
-revert to not visited once you close out of the website. Trying to resolve but 
-stumped... any recommendations for solves would be fantastic!FYI added a section
-tag to each HTML so can have another option for styling in the webpage.Lynne 
+Lynne 
 */
-/*Once resolved I will add the Nav Bar to other pages.Lynne*/
+
 
 html{font-family: 'Open Sans',"Book Antiqua",Palatino sans-serif;
-
+font-size: 16px;
 
 }
 
-header,nav,h1{font-family:'Raleway',Georgia,"Times New Roman" sans-serif;
+body{width:90vw;
+     margin:0 auto;
+}
+
+header,nav,h2{font-family:'Raleway',Georgia,"Times New Roman" sans-serif;
 
 
 } 
@@ -43,11 +44,11 @@ web pages should align*/
 nav ul {
     list-style-type: none;
     margin-bottom:25px;
-    padding: 0;
+    padding: 10px 0;
     background-color: #EAEAEA;
     display:flex;
     justify-content:space-around;
-    height: 30px;
+    /*height: 30px;*/
     }  
 
 
@@ -78,15 +79,18 @@ nav li a:hover {
 
 
 section {
+    
         margin-bottom: 10px;
         border:3px #C0C0C0 solid;
-        padding:5px;
+        padding:20px 10px;
         /*background-color:rgba(234, 234, 234, .50);*/
         /*#EAEAEA; because there are so many different colors in Website and in 
         each page within the website-might be best to keep the 
         background color no color*/
 
 }
+
+
 
 
 img{
@@ -96,7 +100,6 @@ img{
 
 }
 
-
 .flex-container{display:flex;
                 align-items:center;
                 
@@ -105,12 +108,40 @@ img{
 
 
 
+h2{font-size: 1.2rem;
+    padding-left:5px;
+
+}
+
+
 p{margin-bottom: 10px;
 
 
 }
 
+.contentcredit{
+    font-size: .85rem;
+}
 
+
+/*Media Queries*/
+@media only screen and (max-width: 600px) {
+   .flex-container{
+       flex-direction: column;
+    } 
+    
+    img {
+        width: 45%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    
+    h2{
+        text-align: center;
+        margin-bottom: 20px;
+}
+
+}
 
 
 

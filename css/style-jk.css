@@ -8,12 +8,12 @@
 /* ===== Style for Layout Page ==== */
 /*Added this font styling so the home page style with the other pages-*/
 
-html{font-family: 'Open Sans',"Book Antiqua",Palatino sans-serif;
-
+html {
+    font-family: 'Open Sans',"Book Antiqua",Palatino sans-serif;
 }
-header,nav,h1{font-family:'Raleway',Georgia,"Times New Roman" sans-serif;
 
-
+header,nav,h1,h2 {
+    font-family:'Raleway',Georgia,"Times New Roman" sans-serif;
 }
 
     /* ===== NAVIGATION BAR ==== */    
@@ -30,17 +30,19 @@ nav {
     /*Fix centering */
     width: 50%;
     margin: 0 auto;
-    display: flex;
+    display:flex;
     justify-content: center;
 }
  
+/*Fixed the error in the nav bar- no longer any underlines in the links. 
+I had erased The ending tags on the comment after (float: left),
+which caused the error.
+Thank you Lynne
+*/
 
 nav ul li {
-  float: left;   /* makes block elements behaves like inline elements*/ 
+  float: left;   /* makes block elements behaves like inline elements*/
 }
-
-
-
 
 nav li a {
     text-decoration:none; /* this removes the links underline*/ 
@@ -48,6 +50,8 @@ nav li a {
     display: block;
     padding: 0 20px;
 }
+
+
 
 nav li a:visited {
     color: lightseagreen;
