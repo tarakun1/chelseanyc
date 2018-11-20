@@ -1,5 +1,5 @@
 /*CSS reset*/
-/*Need to add id to complete project*/
+/*Need to add id to complete project-DONE*/
 
 * {
     margin:0;
@@ -15,8 +15,9 @@ Lynne
 */
 
 
-html{font-family: 'Open Sans',"Book Antiqua",Palatino sans-serif;
-font-size: 16px;
+html{font-family:
+    'Open Sans',"Book Antiqua",Palatino sans-serif;
+     font-size: 16px;
 
 }
 
@@ -45,7 +46,7 @@ nav ul {
     list-style-type: none;
     margin-bottom:25px;
     padding: 10px 0;
-    background-color: #EAEAEA;
+    background-color: #EAEAEA; 
     display:flex;
     justify-content:space-around;
     /*height: 30px;*/
@@ -109,12 +110,7 @@ img{
 
 }
 
-.flex-container2{display:flex;
-                align-items:center;
-                /*flex-direction:row;*/
-
-}
-              
+  
 
 
 
@@ -132,26 +128,106 @@ p{margin-bottom: 10px;
 
 }
 
+
+
+
 .contentcredit{
     font-size: .85rem;
 }
 
+
+/*Direction for sections in the Eat Page*/
 .align{display:flex;
         flex-direction:column;
         margin-right: 50px;
-        /*padding: 15px 0px;*/
-    /*padding-right: 15px;*/
-    /*text-align: center*/
+       
  
     
 }
 
-.img1{
-    height: 225px;
-    width: 225px;
-     margin-right:15px;
 
-}    
+
+
+/*End of Direction for Sections in the Eat Page*/
+
+
+/*Direction for each Image in the Eat Page begins Below*/
+
+/*Redefined the size of the images in the Eat Page in % rather than in px, 
+which is the more flexible and the correct coding. However, when I redefined the
+sizing images as %,I lost the centering of some of the text in some of the 
+sections. I cannot center the text that goes along side the 2nd, 3rd, & 5th images
+satisfactorily.I am unable to determine how to center the text in these sections 
+after many attempts of adjusting margins, padding and redefining the div(class) 
+of these affected sections.*/
+
+/*original images definition in px*/
+/*.img1{*/
+/*    height: 225px;*/
+/*    width: 225px;*/
+/*    margin-right:15px;*/
+    
+/*} */
+
+
+
+
+
+#imgeat1{
+    height:90%;
+    width:90%;
+    margin-right:15px;
+}
+
+#imgeat2{
+    height: 45%;
+    width: 40%;
+    margin-right:15px;
+    
+ } 
+
+
+
+
+#imgeat3{
+    height: 55%;
+    width: 55%;
+    margin-right:15px;
+    
+}
+
+
+
+
+
+#imgeat4{
+    height: 85%;
+    width: 85%;
+    margin-right:15px;
+    
+} 
+
+
+#imgeat5{
+    height:60%;
+    width:60%;
+    margin-right:15px;
+   
+}
+
+
+/*Direction for each image in Eat Page ends*/
+
+
+
+/*Direction for image on History page*/
+
+#imghist{
+  float: left;  
+    
+    
+}
+/*Direction for image on History Page Ends*/
 
 /*Media Queries*/
 @media only screen and (max-width: 600px) {
